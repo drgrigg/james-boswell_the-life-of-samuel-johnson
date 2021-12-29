@@ -86,8 +86,45 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/addenda.xhtml" id="addenda.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-1.xhtml" id="appendix-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-2.xhtml" id="appendix-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-3.xhtml" id="appendix-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-4.xhtml" id="appendix-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-5.xhtml" id="appendix-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-6.xhtml" id="appendix-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-7.xhtml" id="appendix-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-8.xhtml" id="appendix-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-9.xhtml" id="appendix-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-10.xhtml" id="appendix-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-11.xhtml" id="appendix-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-12.xhtml" id="appendix-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-13.xhtml" id="appendix-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-14.xhtml" id="appendix-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-15.xhtml" id="appendix-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-16.xhtml" id="appendix-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-17.xhtml" id="appendix-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-18.xhtml" id="appendix-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-19.xhtml" id="appendix-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-20.xhtml" id="appendix-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-21.xhtml" id="appendix-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix-22.xhtml" id="appendix-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/bibliography.xhtml" id="bibliography.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dedication-1.xhtml" id="dedication-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dedication-2.xhtml" id="dedication-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword-1.xhtml" id="foreword-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword-2.xhtml" id="foreword-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword-3.xhtml" id="foreword-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/part-1.xhtml" id="part-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-3.xhtml" id="part-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-4.xhtml" id="part-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-5.xhtml" id="part-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -95,6 +132,43 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="dedication-1.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="dedication-2.xhtml"/>
+		<itemref idref="foreword-1.xhtml"/>
+		<itemref idref="foreword-2.xhtml"/>
+		<itemref idref="foreword-3.xhtml"/>
+		<itemref idref="bibliography.xhtml"/>
+		<itemref idref="part-1.xhtml"/>
+		<itemref idref="part-2.xhtml"/>
+		<itemref idref="part-3.xhtml"/>
+		<itemref idref="part-4.xhtml"/>
+		<itemref idref="part-5.xhtml"/>
+		<itemref idref="appendix-1.xhtml"/>
+		<itemref idref="appendix-2.xhtml"/>
+		<itemref idref="appendix-3.xhtml"/>
+		<itemref idref="appendix-4.xhtml"/>
+		<itemref idref="appendix-5.xhtml"/>
+		<itemref idref="appendix-6.xhtml"/>
+		<itemref idref="appendix-7.xhtml"/>
+		<itemref idref="appendix-8.xhtml"/>
+		<itemref idref="appendix-9.xhtml"/>
+		<itemref idref="appendix-10.xhtml"/>
+		<itemref idref="appendix-11.xhtml"/>
+		<itemref idref="appendix-12.xhtml"/>
+		<itemref idref="appendix-13.xhtml"/>
+		<itemref idref="appendix-14.xhtml"/>
+		<itemref idref="appendix-15.xhtml"/>
+		<itemref idref="appendix-16.xhtml"/>
+		<itemref idref="appendix-17.xhtml"/>
+		<itemref idref="appendix-18.xhtml"/>
+		<itemref idref="appendix-19.xhtml"/>
+		<itemref idref="appendix-20.xhtml"/>
+		<itemref idref="appendix-21.xhtml"/>
+		<itemref idref="appendix-22.xhtml"/>
+		<itemref idref="addenda.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
