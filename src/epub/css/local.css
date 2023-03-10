@@ -10,3 +10,24 @@
 	vertical-align: top;
 	padding: 1em;
 }
+
+/* quoted material in italics in page scans */
+q{
+	font-style: italic;
+}
+
+q i,
+q em{
+	font-style: initial;
+}
+
+i em,
+em i{
+	font-style: initial;
+}
+
+/* this is for use in the Addenda, notes which reference the text */
+.note-header{
+	font-style: italic;
+	text-align: center;
+}
