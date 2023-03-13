@@ -31,3 +31,8 @@ em i{
 	font-style: italic;
 	text-align: center;
 }
+
+/* drama quotes */
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+}
