@@ -32,6 +32,16 @@ em i{
 	text-align: center;
 }
 
+/* This is for italics used specifically to show variations in manuscripts */
+span.variation{
+	font-style: italic;
+}
+
+/* This is to handle cases where an interruption WITHIN a semanticated and italicised phrase should not be in italics, but is also not emphasised speech, etc. */
+span.unitalicised{
+	font-stye: initial;
+}
+
 /* drama quotes */
 [epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
