@@ -26,6 +26,11 @@ em i{
 	font-style: initial;
 }
 
+/* page scans do not italicise all-caps if within a section of italics */
+i b{
+	font-style: initial;
+}
+
 /* this class is for use in the Addenda, headings of "notes" which reference the text */
 .note-header{
 	font-style: italic;
