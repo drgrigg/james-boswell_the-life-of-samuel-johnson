@@ -49,7 +49,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/8918</dc:source>
 		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">1) Internal page number references, originally indicated by ante and post tags, have been replaced throughout by hyperlinks. In many, many cases, these hyperlinks are not to paragraph IDs targets but to anchors within paragraphs, since Boswell frequently runs a single paragraph over many pages. 2) Note also that I have not attempted to replace ante and post references which are directed to dates rather than page numbers, because these are often ambiguous, e.g. referring only to a year or month or with some other qualifier which doesn’t lend itself to hyperlinking.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Life_of_Samuel_Johnson</meta>
