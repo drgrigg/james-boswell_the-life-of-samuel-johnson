@@ -2,13 +2,13 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 #appendix-14 table{
-	margin-top: 1em;
 	margin-bottom: 1em;
-	}
+	margin-top: 1em;
+}
 
 #appendix-14 td{
-	vertical-align: top;
 	padding: 1em;
+	vertical-align: top;
 }
 
 /* quoted material in italics in page scans */
