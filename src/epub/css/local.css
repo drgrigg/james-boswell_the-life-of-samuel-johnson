@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 #appendix-14 table{
 	margin-bottom: 1em;
@@ -15,12 +16,12 @@ cite{
 	font-variant: small-caps;
 }
 
-/* Centered dedications */
-section[epub|type~="dedication"]{
+/* Centered dedication */
+#dedication-1 section[epub|type~="dedication"]{
 	text-align: center;
 }
 
-section[epub|type~="dedication"] > *{
+#dedication-1 section[epub|type~="dedication"] > *{
 	display: inline-block;
 	margin: auto;
 	margin-top: 3em;
@@ -28,7 +29,7 @@ section[epub|type~="dedication"] > *{
 }
 
 @supports(display: flex){
-	section[epub|type~="dedication"]{
+	#dedication-1 section[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
 		display: flex;
@@ -38,11 +39,40 @@ section[epub|type~="dedication"] > *{
 		padding-top: 3em;
 	}
 
-	section[epub|type~="dedication"] > *{
+	#dedication-1 section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
-/* End centered dedications */
+/* End centered dedication */
+
+/* prose dedication */
+#dedication-2 footer{
+	text-align: initial;
+	margin: 0 auto;
+	width: 50%;
+}
+#dedication-2 footer p:nth-child(1){
+	text-indent: 0;
+}
+#dedication-2 footer p:nth-child(2){
+	text-indent: 1em;
+}
+#dedication-2 footer p:nth-child(3){
+	text-indent: 2em;
+}
+#dedication-2 footer p:nth-child(4){
+	text-indent: 3em;
+}
+#dedication-2 footer p:nth-child(5) {
+	text-indent: 4em;
+	font-variant: small-caps;
+}
+#dedication-2 footer p:nth-child(6) {
+	text-indent: 0em;
+	text-align: right;
+}
+
+/* end prose dedication */
 
 /* quoted material in italics in page scans */
 q{
