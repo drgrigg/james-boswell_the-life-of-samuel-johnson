@@ -12,8 +12,13 @@
 	vertical-align: top;
 }
 
+/* this is for consistency with cites in blockquotes */
 cite{
-	font-variant: small-caps;
+	font-style: italic;
+}
+
+cite i{
+	font-style: normal;
 }
 
 /* Centered dedication */
@@ -216,3 +221,13 @@ footer{
 	text-indent: 0;
 }
 /* end letters */
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	vertical-align: top;
+}
