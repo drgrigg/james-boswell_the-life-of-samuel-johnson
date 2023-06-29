@@ -20,7 +20,7 @@ cite{
 section[epub|type~="dedication"]{
 	text-align: center;
 }
- 
+
 section[epub|type~="dedication"] > *{
 	display: inline-block;
 	margin: auto;
@@ -29,7 +29,7 @@ section[epub|type~="dedication"] > *{
 }
 
 @supports(display: flex){
-section[epub|type~="dedication"]{
+	section[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
 		display: flex;
@@ -39,7 +39,7 @@ section[epub|type~="dedication"]{
 		padding-top: 3em;
 	}
 
-section[epub|type~="dedication"] > *{
+	section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
@@ -47,36 +47,42 @@ section[epub|type~="dedication"] > *{
 
 /* prose dedication */
 #dedication-2 header{
-	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
 #dedication-2 footer{
-	text-align: initial;
 	margin: 0 auto;
+	text-align: initial;
 	width: 50%;
 }
+
 #dedication-2 footer p:nth-child(1){
-	text-indent: 0;
 	margin-top: 0.5em;
+	text-indent: 0;
 }
+
 #dedication-2 footer p:nth-child(2){
 	text-indent: 1em;
 }
+
 #dedication-2 footer p:nth-child(3){
 	text-indent: 2em;
 }
+
 #dedication-2 footer p:nth-child(4){
 	text-indent: 3em;
 }
-#dedication-2 footer p:nth-child(5) {
-	text-indent: 4em;
+
+#dedication-2 footer p:nth-child(5){
 	font-variant: small-caps;
+	text-indent: 4em;
 }
-#dedication-2 footer p:nth-child(6) {
-	text-indent: 0em;
+
+#dedication-2 footer p:nth-child(6){
 	margin-top: 0.5em;
 	text-align: left;
+	text-indent: 0;
 }
 /* end prose dedication */
 
