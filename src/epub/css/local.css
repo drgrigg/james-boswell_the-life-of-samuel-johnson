@@ -111,7 +111,7 @@ i b{
 	font-style: initial;
 }
 
-/* this class is for use in the Addenda, headings of "notes" which reference the text */
+/* this class is for subheadings in the Addenda and Bibliography */
 .note-header{
 	font-style: italic;
 	text-align: center;
