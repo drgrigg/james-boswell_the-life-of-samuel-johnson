@@ -111,10 +111,15 @@ i b{
 	font-style: initial;
 }
 
-/* this class is for subheadings in the Addenda and Bibliography */
+/* these classes are for subheadings in the Addenda and Bibliography */
 .note-header{
 	font-style: italic;
+	margin-top: 0.5em;
 	text-align: center;
+}
+
+.year-header{
+	text-indent: 0;
 }
 
 /* This is for italics used specifically to show variations in manuscripts */
