@@ -132,6 +132,12 @@ span.unitalicised{
 	font-stye: initial;
 }
 
+/* grave inscriptions */
+#part-1 blockquote:nth-of-type(7) p{
+	text-align: center;
+	text-indent: 0;
+}
+
 /* drama styling for quotations from plays */
 [epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
