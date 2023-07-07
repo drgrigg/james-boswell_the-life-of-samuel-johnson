@@ -2,6 +2,17 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+header{
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+header p{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+
 #appendix-14 table{
 	margin-bottom: 1em;
 	margin-top: 1em;
@@ -111,15 +122,33 @@ i b{
 	font-style: initial;
 }
 
-/* these classes are for subheadings in the Addenda and Bibliography */
+/* these classes are for subheadings in various places such as the Addenda */
 .note-header{
 	font-style: italic;
 	margin-top: 0.5em;
 	text-align: center;
+	text-indent: 0;
 }
 
 .year-header{
 	text-indent: 0;
+}
+
+.poem-header{
+	font-style: italic;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	text-align: center;
+	text-indent: 0;
+}
+
+.poem-header i{
+	font-style: initial;
+}
+
+/* this is to allow for special treatment of the year and age entries, eg 1725: AETAT 16 */
+span.year-and-age{
+	font-variant: small-caps;
 }
 
 /* This is for italics used specifically to show variations in manuscripts */
@@ -233,8 +262,45 @@ footer{
 }
 /* end letters */
 
+/* Verse styling */
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+/* end verse styling */
+
 table{
 	border-collapse: collapse;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 td{
