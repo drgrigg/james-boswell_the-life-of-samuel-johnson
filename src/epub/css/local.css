@@ -2,6 +2,10 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+blockquote[xml|lang]{
+	font-style: italic;
+}
+
 header{
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
@@ -299,12 +303,37 @@ p span.i2{
 
 table{
 	border-collapse: collapse;
-	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
 td{
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	vertical-align: top;
+}
+
+/* PURELY FOR HELP IN PROOFING - REMOVE BEFORE COMPLETING PRODUCTION !!! */
+time{
+	color: #006600;
+}
+
+a[href^="endnotes.xhtml#note-"][id^="noteref-"]{
+	color: #000066;
+}
+
+i[epub|type*="pamphlet"] {
+	color: #008888;
+}
+
+i[epub|type*="book"] {
+	color: #880088;
+}
+
+i[epub|type*="play"] {
+	color: #00AA88;
+}
+
+i[epub|type*="poem"] {
+	color: #0088AA;
 }
