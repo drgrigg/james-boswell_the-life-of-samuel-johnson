@@ -268,12 +268,14 @@ footer{
 
 /* Verse styling */
 [epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
@@ -281,11 +283,13 @@ footer{
 }
 
 [epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
 [epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
@@ -322,18 +326,18 @@ a[href^="endnotes.xhtml#note-"][id^="noteref-"]{
 	color: #000066;
 }
 
-i[epub|type*="pamphlet"] {
+i[epub|type*="pamphlet"]{
 	color: #008888;
 }
 
-i[epub|type*="book"] {
+i[epub|type*="book"]{
 	color: #880088;
 }
 
-i[epub|type*="play"] {
+i[epub|type*="play"]{
 	color: #00AA88;
 }
 
-i[epub|type*="poem"] {
+i[epub|type*="poem"]{
 	color: #0088AA;
 }
