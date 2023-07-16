@@ -138,6 +138,7 @@ i b{
 	text-indent: 0;
 }
 
+/* we need this because some poem headers include spans, which are affected by the poetry styling */
 .poem-header{
 	font-style: italic;
 	margin-bottom: 0.5em;
@@ -165,10 +166,18 @@ span.unitalicised{
 	font-stye: initial;
 }
 
-/* grave inscriptions */
+/* grave inscription */
 #part-1 blockquote:nth-of-type(7) p{
 	text-align: center;
 	text-indent: 0;
+}
+
+/* passages where Boswell specifically says he is distinguishing a passage "by the Italick character". */
+#part-1 blockquote:nth-of-type(43) p,
+#part-1 blockquote:nth-of-type(45) p,
+#part-1 blockquote:nth-of-type(46) p,
+#part-1 blockquote:nth-of-type(47) p{
+	font-style: italic;
 }
 
 /* drama styling for quotations from plays */
@@ -264,6 +273,14 @@ footer{
 	text-align: initial;
 	text-indent: 0;
 }
+
+[epub|type~="se:letter.dateline"]{
+	text-align: right;
+	font-variant: normal;
+	font-style: italic;
+}
+
+
 /* end letters */
 
 /* Verse styling */
@@ -302,6 +319,11 @@ p span.i1{
 p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
+}
+
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
 }
 /* end verse styling */
 
